@@ -1,47 +1,47 @@
 const questions = [
     {
-        question: "Your brain size?",
+        question: "What is the capital of France?",
         answer: [
-            {text : "5 macrometer" , correct : false},
-            {text : "1 macrometer" , correct : false},
-            {text : "0.5 macrometer" , correct : false},
-            {text : "Do not exist" , correct : true}
+            {text : "Paris" , correct : true},
+            {text : "London" , correct : false},
+            {text : "Berlin" , correct : false},
+            {text : "Madrid" , correct : false}
         ]
     },
     {
-            question: "Your favourite word?",
+            question: "Which planet is known as the Red Planet?",
             answer: [
-                {text : "Bhnekilodi" , correct : false},
-                {text : "Madarchod" , correct : false},
-                {text : "Bhenkaloda" , correct : false},
-                {text : "Sare thode thode bol leti hu" , correct : true}
+                {text : "Earth" , correct : false},
+                {text : "Mars" , correct : true},
+                {text : "Jupiter" , correct : false},
+                {text : "Saturn" , correct : false}
             ]
     },
     {
-        question: "Smallest thing in the world?",
+        question: "What is the largest ocean on Earth?",
         answer: [
-            {text : "Chiti ka baccha" , correct : false},
-            {text : "Machar ka nak ka baal" , correct : false},
-            {text : "Choti abcd" , correct : false},
-            {text : "Unnati" , correct : true}
+            {text : "Atlantic Ocean" , correct : false},
+            {text : "Indian Ocean" , correct : false},
+            {text : "Arctic Ocean" , correct : false},
+            {text : "Pacific Ocean" , correct : true}
         ]
     },
     {
-        question: " What word is spelled incorrectly in every single dictionary?",
+        question: "Who wrote 'To Kill a Mockingbird'?",
         answer: [
-            {text : "Nhi ata" , correct : false},
-            {text : "Tumhe bhi nhi pata" , correct : false},
-            {text : "Hume bhi nhi pata" , correct : false},
-            {text : "Kisiko nhi pata" , correct : true}
+            {text : "Harper Lee" , correct : true},
+            {text : "Mark Twain" , correct : false},
+            {text : "Ernest Hemingway" , correct : false},
+            {text : "F. Scott Fitzgerald" , correct : false}
         ]
     },
     {
-        question: "Whats greater than God and more evil than the devil. Rich people want it, poor people have it. And if you eat it, you’ll die?",
+        question: "What is the chemical symbol for gold?",
         answer: [
-            {text : "Nothing" , correct : true},
-            {text : "Apple" , correct : false},
-            {text : "Haye mar java gud khake" , correct : false},
-            {text : "Bhenco ye bhi nhi pata" , correct : false}
+            {text : "Au" , correct : true},
+            {text : "Ag" , correct : false},
+            {text : "Pb" , correct : false},
+            {text : "Fe" , correct : false}
         ]
     }
 ];
